@@ -1,0 +1,110 @@
+.btn-3 {
+  width: 173px;
+  color: #f58a07;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 106.5%;
+  border-radius: 31px;
+  background: rgba(245, 138, 7, 0.1);
+  border: none;
+  transition: 0.5s;
+}
+.btn-3:hover {
+  color: black;
+  background-color: white;
+}
+
+.home__cards {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-top: 150px;
+  gap: 46px;
+  align-items: center;
+}
+.home__cards .home__card h1 {
+  width: 558px;
+  color: #1d3444;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: -1.92px;
+}
+.home__cards .home__card p {
+  width: 510px;
+  color: #5b5b5b;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  padding-top: 14px;
+  padding-bottom: 10px;
+}
+.home__cards .home__card button {
+  width: 171px;
+  border-radius: 27px;
+  background: #f58a07;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 106.5%;
+  text-transform: capitalize;
+  padding: 18px 19px;
+  border: none;
+}
+.home__cards .home_card h1 {
+  color: #0d1317;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58px;
+  letter-spacing: -1.44px;
+  padding-bottom: 24px;
+  padding-left: 5px;
+}
+.home__cards .home_card p {
+  width: 583px;
+  color: #5b5b5b;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  padding-bottom: 24px;
+  padding-left: 10px;
+}
+.home__cards .home_card ul li {
+  color: #5b5b5b;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  padding-bottom: 8px;
+}
+.home__cards .home-card h1 {
+  color: #0d1317;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: -1.44px;
+}
+.home__cards .home-card p {
+  width: 540px;
+  color: #5b5b5b;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  padding-top: 24px;
+}
+.home__cards .home___card h1 {
+  width: 500px;
+  color: #0d1317;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: -1.44px;
+  text-transform: capitalize;
+}
+.home__cards .home___card p {
+  padding-top: 24px;
+  padding-bottom: 40px;
+  width: 500px;
+  color: #5b5b5b;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+}
