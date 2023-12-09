@@ -108,3 +108,30 @@
   font-weight: 500;
   line-height: 30px;
 }
+
+@media (max-width: 1200px) {
+  .home__cards {
+    grid-template-columns: auto;
+  }
+  .home__cards img {
+    width: 100%;
+  }
+}
+@media (max-width: 700px) {
+  .home__cards .home-card p,
+  .home__cards .home___card p,
+  .home__cards .home__card p,
+  .home__cards .home_card p {
+    width: 100%;
+  }
+  .home__cards .home-card h1,
+  .home__cards .home___card h1,
+  .home__cards .home__card h1,
+  .home__cards .home_card h1 {
+    width: 100%;
+  }
+  .home__cards img {
+    width: 500px;
+    margin: 0;
+  }
+}
