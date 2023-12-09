@@ -118,3 +118,32 @@
     }
   }
 }
+
+@media (max-width: 1200px) {
+  .home__cards {
+    grid-template-columns: auto;
+    img {
+      width: 100%;
+    }
+  }
+}
+@media (max-width: 700px) {
+  .home__cards {
+    .home-card,
+    .home___card,
+    .home__card,
+    .home_card {
+      p {
+        width: 100%;
+      }
+      h1 {
+        width: 100%;
+      }
+    }
+
+    img {
+      width: 500px;
+      margin: 0;
+    }
+  }
+}
