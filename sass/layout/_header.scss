@@ -1,3 +1,18 @@
 @use "../global";
 @use "../utils/mixins" as mix;
 @use "../utils/variables" as var;
+.btn-3 {
+  width: 173px;
+  color: #f58a07;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 106.5%;
+  border-radius: 31px;
+  background: rgba(245, 138, 7, 0.1);
+  border: none;
+  transition: 0.5s;
+  &:hover {
+    color: black;
+    background-color: white;
+  }
+}
