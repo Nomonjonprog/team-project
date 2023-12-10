@@ -1,0 +1,20 @@
+/* // Scrol */
+
+::-webkit-scrollbar {
+  transition: 0.3s all ease;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(174, 168, 168);
+  border-radius: 10px;
+  height: 200px;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* // Scrol */
