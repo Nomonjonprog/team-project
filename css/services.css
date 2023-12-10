@@ -792,6 +792,10 @@
   top: 50px;
 }
 
+* {
+  font-family: "Poppins", sans-serif;
+}
+
 .btn-3 {
   width: 173px;
   color: #f58a07;
@@ -907,9 +911,6 @@
   .home__cards {
     grid-template-columns: auto;
   }
-  .home__cards img {
-    width: 100%;
-  }
 }
 @media (max-width: 700px) {
   .home__cards .home-card p,
@@ -925,7 +926,7 @@
     width: 100%;
   }
   .home__cards img {
-    width: 500px;
+    width: 100% !important;
     margin: 0;
   }
 }

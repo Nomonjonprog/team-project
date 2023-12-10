@@ -1,4 +1,9 @@
 @use "./home";
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
 .btn-3 {
   width: 173px;
   color: #f58a07;
@@ -123,9 +128,6 @@
 @media (max-width: 1200px) {
   .home__cards {
     grid-template-columns: auto;
-    img {
-      width: 100%;
-    }
   }
 }
 @media (max-width: 700px) {
@@ -143,7 +145,7 @@
     }
 
     img {
-      width: 500px;
+      width: 100% !important;
       margin: 0;
     }
   }
