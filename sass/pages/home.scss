@@ -4,7 +4,6 @@
 
 .header {
   width: 100%;
-  height: 200px;
   background: #dceaf5;
   height: 703px;
 
@@ -154,7 +153,6 @@
       justify-content: space-between;
       .card-wrapper-card {
         width: 399px;
-
         .card-w {
           h2 {
             color: #0d1317;
@@ -191,27 +189,6 @@
 }
 
 // Help Section
-
-// Scrol
-
-::-webkit-scrollbar {
-  transition: 0.3s all ease;
-  width: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: rgb(174, 168, 168);
-  border-radius: 10px;
-  height: 200px;
-  cursor: pointer;
-}
-
-::-webkit-scrollbar-track {
-  background-color: transparent;
-  cursor: pointer;
-}
-
-// Scrol
 
 // Feaures Section
 .feaures-section {
@@ -345,8 +322,11 @@
         width: 100%;
         display: flex;
         padding-top: 50px;
+        justify-content: space-between;
         .left-left {
-          width: 50%;
+          width: 48%;
+          margin-right: 10px;
+
           h3 {
             @include h3;
             padding-top: 40px;
@@ -354,10 +334,12 @@
           p {
             @include p;
             padding-top: 10px;
+            text-align: left;
           }
         }
         .left-right {
-          width: 50%;
+          width: 48%;
+          margin-left: 10px;
           h3 {
             @include h3;
             padding-top: 40px;
@@ -365,6 +347,7 @@
           p {
             @include p;
             padding-top: 10px;
+            text-align: left;
           }
         }
       }
@@ -373,15 +356,25 @@
       position: relative;
       width: 50%;
       height: 690px;
-      background-image: url("../../assets/images/Ja'farxon_imaags/orangimg/about.png");
+      flex-shrink: 0;
+      // background-image: url("../../assets/images/Ja'farxon_imaags/orangimg/about.png");
       background-repeat: no-repeat;
       background-size: cover;
       border-radius: 12px;
+      .a-b {
+        max-width: 100%;
+        height: 500px;
+        object-fit: cover;
+        height: 690px;
+        border-radius: 12px;
+      }
       .left-img {
         height: 100%;
         background: #f58a07;
         mix-blend-mode: multiply;
         border-radius: 12px 0 0 12px;
+        position: absolute;
+        left: 0;
       }
       .right-logo {
         position: absolute;
@@ -447,7 +440,6 @@
         .s-left-btn3 {
           width: 183px;
           height: 40px;
-
           color: rgba(6, 50, 85, 0.3);
 
           height: 40px;
@@ -491,12 +483,25 @@
         }
       }
       .section-bottom-right {
+        position: relative;
         width: 45%;
         height: 466px;
-        background-image: url("../../assets/images/Ja'farxon_imaags/orangimg/Imageser.png");
-        background-repeat: no-repeat;
-        background-size: cover;
         border-radius: 22px;
+
+        .servir-bg {
+          width: 100%;
+          height: 100%;
+          max-width: 100%;
+          flex-shrink: 0;
+          object-fit: cover;
+          border-radius: 22px;
+        }
+        .s-left {
+          mix-blend-mode: multiply;
+          position: absolute;
+          top: 0 !important;
+          left: 0;
+        }
       }
     }
   }
@@ -512,10 +517,20 @@
   padding-bottom: 100px;
   .Cta-section-left {
     width: 50%;
-    background-image: url("../../assets/images/Ja'farxon_imaags/orangimg/cta.png");
+    // background-image: url("../../assets/images/Ja'farxon_imaags/orangimg/cta.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 518px;
+    flex-shrink: 0;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+      height: 518px;
+      max-width: 100%;
+      flex-shrink: 0;
+      object-fit: cover;
+    }
   }
   .Cta-section-right {
     width: 50%;
@@ -592,8 +607,17 @@
       width: 46%;
       position: relative;
       height: 501px;
-      background-image: url("../../assets/images/Ja'farxon_imaags/orangimg/v-2.png");
+      // background-image: url("../../assets/images/Ja'farxon_imaags/orangimg/v-2.png");
       border-radius: 0 18px 18px 0;
+      max-width: 100%;
+      .video-bg {
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        object-fit: cover;
+        border-radius: 18px;
+      }
+
       .play {
         display: flex;
         align-items: center;
