@@ -1,179 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ja'farxon | Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/hom-medi.css" />
+    <link rel="stylesheet" href="../css/services.min.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+    <link rel="stylesheet" href="./css/scrol.css">
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ja'farxon | Home</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-  <link rel="stylesheet" href="../css/services.min.css" />
-  <link rel="stylesheet" href="./css/home.css" />
-</head>
-
-<body>
-  <!-- Nav bar  -->
-  <nav class="navbar navbar-expand-lg fixed-top" style="background-color: whitesmoke">
-    <div class="container">
-      <img src="../assets/images/Nomonjon's images/Logo.png" alt="" />
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="offcanvas offcanvas-navbar offcanvas-start" tabindex="-1" id="offcanvasNavbar"
-        aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-            <img src="../assets/images/Nomonjon's images/Logo.png" alt="" />
-          </h5>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item">
-              <a class="nav-link" href="../index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./pages/about.html">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./pages/careers.html">CAREERS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./pages/services.html">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#w">Contact us</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <button class="btn btn-outline-success btn-3" type="submit">
-              <a class="nav-link" href="./pages/contact.html">Clone project</a>
-            </button>
-          </form>
+  <body>
+    <!-- Nav bar  -->
+    <nav
+      class="navbar navbar-expand-lg fixed-top"
+      style="background-color: whitesmoke"
+    >
+      <div class="container">
+        <img src="../assets/images/Nomonjon's images/Logo.png" alt="" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-navbar offcanvas-start"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              <img src="../assets/images/Nomonjon's images/Logo.png" alt="" />
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/careers.html">CAREERS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#w">Contact us</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <button class="btn btn-outline-success btn-3" type="submit">
+                <a class="nav-link" href="./pages/contact.html"
+                  >Clone project</a
+                >
+              </button>
+            </form>
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
-  <!-- Nav bar  -->
+    </nav>
+    <!-- Nav bar  -->
 
-  <!-- Header -->
-  <header class="header">
-    <div class="container">
-      <div class="header-left">
-        <h1 class="header-left-h1">Prosper with our bespoke solutions</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          varius enim in eros elementum tristique
-        </p>
-        <div class="header-left-buttons">
-          <button class="buttons-button-1">See our services</button>
-          <button class="buttons-button-2">See All Services</button>
-        </div>
-        <p class="worked">Worked with 100+ Companies</p>
-
-        <div class="logo-wrapper">
-          <img src="./assets/images/Ja'farxon_imaags/logo/Logo.png" alt="" />
-          <img src="./assets/images/Ja'farxon_imaags/logo/Logo1.png" alt="" />
-          <img src="./assets/images/Ja'farxon_imaags/logo/Logo2.png" alt="" />
-        </div>
-      </div>
-      <div class="header-right">
-        <img src="./assets/images/Ja'farxon_imaags/orangimg/Orange 2.png" alt="" class="right-img2" />
-
-        <img src="./assets/images/Ja'farxon_imaags/orangimg/Image.png" alt="" class="right-img3" />
-        <img src="./assets/images/Ja'farxon_imaags/orangimg/Orange 1.png" alt="" class="right-img1" />
-      </div>
-    </div>
-  </header>
-  <!-- Header -->
-
-  <!-- Help Section -->
-  <section class="help-section">
-    <div class="container">
-      <h1 class="help-section-h1">
-        We help more than 1500 companies from all sectors
-      </h1>
-      <p class="help-section-p">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit
-        amet eros blandit, hendrerit elit et, mattis purus. Vivamus commodo
-        suscipit tellus et pellentesque.
-      </p>
-      <div class="help-section-card-wrapper"></div>
-    </div>
-  </section>
-
-  <!-- Help Section -->
-
-  <!-- Feaures Section -->
-  <section class="feaures-section">
-    <div class="container">
-      <div class="feaures-section-top">
-        <div class="section-top-left">
-          <h1>
-            We are building software solution that solves your business
-            challenges
-          </h1>
-        </div>
-        <div class="section-top-right">
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header-left">
+          <h1 class="header-left-h1">Prosper with our bespoke solutions</h1>
           <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros elementum tristique
+          </p>
+          <div class="header-left-buttons">
+            <button class="buttons-button-1">See our services</button>
+            <button class="buttons-button-2">See All Services</button>
+          </div>
+          <p class="worked">Worked with 100+ Companies</p>
+
+          <div class="logo-wrapper">
+            <img src="./assets/images/Ja'farxon_imaags/logo/Logo.png" alt="" />
+            <img src="./assets/images/Ja'farxon_imaags/logo/Logo1.png" alt="" />
+            <img src="./assets/images/Ja'farxon_imaags/logo/Logo2.png" alt="" />
+          </div>
+        </div>
+        <div class="header-right">
+          <img
+            src="./assets/images/Ja'farxon_imaags/orangimg/Orange 2.png"
+            alt=""
+            class="right-img2"
+          />
+
+          <img
+            src="./assets/images/Ja'farxon_imaags/orangimg/Image.png"
+            alt=""
+            class="right-img3"
+          />
+          <img
+            src="./assets/images/Ja'farxon_imaags/orangimg/Orange 1.png"
+            alt=""
+            class="right-img1"
+          />
+        </div>
+      </div>
+    </header>
+    <!-- Header -->
+
+    <!-- Help Section -->
+    <section class="help-section">
+      <div class="container">
+        <h1 class="help-section-h1">
+          We help more than 1500 companies from all sectors
+        </h1>
+        <p class="help-section-p">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit
+          amet eros blandit, hendrerit elit et, mattis purus. Vivamus commodo
+          suscipit tellus et pellentesque.
+        </p>
+        <div class="help-section-card-wrapper"></div>
+      </div>
+    </section>
+
+    <!-- Help Section -->
+
+    <!-- Feaures Section -->
+    <section class="feaures-section">
+      <div class="container">
+        <div class="feaures-section-top">
+          <div class="section-top-left">
+            <h1>
+              We are building software solution that solves your business
+              challenges
+            </h1>
+          </div>
+          <div class="section-top-right">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+              sit amet eros blandit, hendrerit elit et, mattis purus. Vivamus
+              commodo suscipit tellus et pellentesque.
+            </p>
+          </div>
+        </div>
+        <div class="feaures-section-cards"></div>
+      </div>
+    </section>
+
+    <!-- Feaures Section -->
+
+    <!-- About Section -->
+    <section class="about-section">
+      <div class="container">
+        <div class="about-section-left">
+          <h1>
+            The energy of a start-up combined with 30 years of experience.
+          </h1>
+          <p class="p-w">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
             sit amet eros blandit, hendrerit elit et, mattis purus. Vivamus
             commodo suscipit tellus et pellentesque.
           </p>
-        </div>
-      </div>
-      <div class="feaures-section-cards"></div>
-    </div>
-  </section>
-
-  <!-- Feaures Section -->
-
-  <!-- About Section -->
-  <section class="about-section">
-    <div class="container">
-      <div class="about-section-left">
-        <h1>
-          The energy of a start-up combined with 30 years of experience.
-        </h1>
-        <p class="p-w">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-          sit amet eros blandit, hendrerit elit et, mattis purus. Vivamus
-          commodo suscipit tellus et pellentesque.
-        </p>
-        <div class="section-left-bottom">
-          <div class="left-left">
-            <img src="./assets/images/Ja'farxon_imaags/logo/15+.png" alt="" />
-            <h3>Awards received</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscin. Curabitur sit
-              amet eros elit et.
-            </p>
-          </div>
-          <div class="left-right">
-            <img src="./assets/images/Ja'farxon_imaags/logo/500+.png" alt="" />
-            <h3>Clients served</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscin. Curabitur sit
-              amet eros elit et.
-            </p>
+          <div class="section-left-bottom">
+            <div class="left-left">
+              <img src="./assets/images/Ja'farxon_imaags/logo/15+.png" alt="" />
+              <h3>Awards received</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscin. Curabitur sit
+                amet eros elit et.
+              </p>
+            </div>
+            <div class="left-right">
+              <img
+                src="./assets/images/Ja'farxon_imaags/logo/500+.png"
+                alt=""
+              />
+              <h3>Clients served</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscin. Curabitur sit
+                amet eros elit et.
+              </p>
+            </div>
           </div>
         </div>
+        <div class="about-section-right">
+          <img
+            src="./assets/images/Ja'farxon_imaags/logo/Circle.png"
+            alt=""
+            class="right-logo"
+          />
+          <img
+            src="./assets/images/Ja'farxon_imaags/orangimg/about.png"
+            alt=""
+            class="a-b"
+          />
+          <img
+            src="./assets/images/Ja'farxon_imaags/orangimg/Orange.png"
+            alt=""
+            class="left-img"
+          />
+        </div>
       </div>
-      <div class="about-section-right">
-        <img src="./assets/images/Ja'farxon_imaags/logo/Circle.png" alt="" class="right-logo" />
-        <img src="./assets/images/Ja'farxon_imaags/orangimg/Orange.png" alt="" class="left-img" />
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- About Section -->
+    <!-- About Section -->
 
-  <!-- Service Section -->
-  <section class="service-section">
+    <!-- Service Section -->
+    <section class="service-section">
     <div class="container">
       <div class="service-section-top">
         <div class="section-top-left">
@@ -206,18 +259,19 @@
               </svg></span></p>
         </div>
         <div class="section-bottom-right">
-          <img src="./assets/images/Ja'farxon_imaags/orangimg/Orangess.png" alt="">
+          <img class="servir-bg" src="./assets/images/Ja'farxon_imaags/orangimg/Imageser.png" alt="">
+          <img class="s-left" src="./assets/images/Ja'farxon_imaags/orangimg/Orangess.png" alt="">
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Service Section -->
+    <!-- Service Section -->
 
-  <!-- CTA Section -->
-  <section class="Cta-section">
+    <!-- CTA Section -->
+    <section class="Cta-section">
     <div class="Cta-section-left">
-
+      <img src="./assets/images/Ja'farxon_imaags/orangimg/cta.png" alt="">
     </div>
     <div class="Cta-section-right">
       <div>
@@ -226,10 +280,10 @@
       </div>
     </div>
   </section>
-  <!-- CTA Section -->
+    <!-- CTA Section -->
 
-  <!-- Video Section -->
-  <section class="video-section">
+    <!-- Video Section -->
+    <section class="video-section">
     <div class="container">
       <div class="video-left">
         <h1>Finsweet was a dream to work with</h1>
@@ -240,6 +294,7 @@
         </div>
       </div>
       <div class="video-right">
+        <img class="video-bg" src="./assets/images/Ja'farxon_imaags/orangimg/v-2.png" alt="">
         <div class="play">
           <div class="plays">
             <svg xmlns="http://www.w3.org/2000/svg" width="13" height="15" viewBox="0 0 13 15" fill="none">
@@ -251,11 +306,11 @@
       </div>
     </div>
   </section>
-  <!-- Video Section -->
+    <!-- Video Section -->
 
-  <!-- Latest Section -->
+    <!-- Latest Section -->
 
-  <section class="latest-section">
+    <section class="latest-section">
     <div class="container">
       <h1 class="latest-title">Latest Blog & News</h1>
       <div class="latest-section-cards">
@@ -320,11 +375,11 @@
     </div>
   </section>
 
-  <!-- Latest Section -->
+    <!-- Latest Section -->
 
-  <!-- Footer  -->
-  <footer class="footer">
-<img class="footer-left" src="./assets/images/Ja'farxon_imaags/news/Shape Left.png" alt="">
+    <!-- Footer  -->
+    <footer class="footer">
+   <img class="footer-left" src="./assets/images/Ja'farxon_imaags/news/Shape Left.png" alt="">
     <div class="container">
       <div class="footer-item">
         <div class="f-item1">
@@ -401,14 +456,13 @@
     </div>
     <img class="footer-right" src="./assets/images/Ja'farxon_imaags/news/Shape Right.png" alt="">
   </footer>
-  <!-- Footer  -->
+    <!-- Footer  -->
 
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
-  <script src="./js/home.js"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/home.js"></script>
+  </body>
 </html>
